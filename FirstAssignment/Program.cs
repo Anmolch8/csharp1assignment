@@ -163,7 +163,7 @@ public class addmissionEligibility {
     public void isEligibleForAdmission()
     {
         totalmarks=maths+chemistry+physics;
-        if ((maths >= 65 && physics >= 55 && chemistry >= 50 && totalmarks>=180))
+        if ((maths >= 65 && physics >= 55 && chemistry >= 50) || totalmarks>=180)
         {
             Console.WriteLine("You are eligible to take the course");
 
