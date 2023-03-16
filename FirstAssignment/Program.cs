@@ -2,7 +2,7 @@
 
 class main
 {
-    static void Main()
+    public static void Main()
     {
         int num = 0;
         while (num <= 3)
@@ -11,7 +11,10 @@ class main
             Console.WriteLine("2.Print Table");
             Console.WriteLine("3.Vote eligibility");
             Console.WriteLine("4.Admission eligibility");
+            Console.WriteLine("5.Exit");
             Console.WriteLine("Give your choice");
+           
+
             int chooseProgram = int.Parse(Console.ReadLine());
 
 
@@ -30,6 +33,11 @@ class main
                 case 4:
                     addmissionEligible();
                     break;
+                case 5:
+                    exit();
+                    break;
+                    
+
                 default:
                     Console.WriteLine("Please choose an option");
                     break;
@@ -44,15 +52,19 @@ class main
     
                 
     }
+    public static void exit()
+    {
+        System.Environment.Exit(0);
+    }
 
-    static void printCubes()
+   public static void printCubes()
     {
         Console.WriteLine("Give the range for generating cubes");
         cubes c = new cubes(int.Parse(Console.ReadLine()));
         c.generateCube();
     }
 
-    static void printTable()
+    public static void printTable()
     {
         Console.WriteLine("\nGive the range for generating table");
         int range=int.Parse(Console.ReadLine());
@@ -62,7 +74,7 @@ class main
         table.generateTable();
 
     }
-    static void eligible()
+   public static void eligible()
     {
         Console.WriteLine("\nGive your age");
 
@@ -70,7 +82,7 @@ class main
         check.isEligible();
     }
 
-    static void addmissionEligible()
+   public static void addmissionEligible()
     {
         Console.Write("\nGive maths marks:");
         int maths = int.Parse(Console.ReadLine());

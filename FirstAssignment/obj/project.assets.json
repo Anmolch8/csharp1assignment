@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FirstAssignment\\FirstAssignment\\FirstAssignment.csproj",
+      "projectUniqueName": "D:\\csharp1assignment\\FirstAssignment\\FirstAssignment.csproj",
       "projectName": "FirstAssignment",
-      "projectPath": "D:\\FirstAssignment\\FirstAssignment\\FirstAssignment.csproj",
+      "projectPath": "D:\\csharp1assignment\\FirstAssignment\\FirstAssignment.csproj",
       "packagesPath": "C:\\Users\\anmol\\.nuget\\packages\\",
-      "outputPath": "D:\\FirstAssignment\\FirstAssignment\\obj\\",
+      "outputPath": "D:\\csharp1assignment\\FirstAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anmol\\AppData\\Roaming\\NuGet\\NuGet.Config",
