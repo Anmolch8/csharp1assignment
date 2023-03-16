@@ -4,8 +4,7 @@ class main
 {
     public static void Main()
     {
-        int num = 0;
-        while (num <= 3)
+        while (true)
         {
             Console.WriteLine("\n1.Print cubes");
             Console.WriteLine("2.Print Table");
